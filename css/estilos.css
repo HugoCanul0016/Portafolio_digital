@@ -1,0 +1,31 @@
+
+.cuadrado{
+    width: 150px;
+    height: 150px;
+    left: 0%;
+    margin-right: 1%;
+    border: 2px solid black;
+
+
+}
+
+.top{
+    width: 1190px;
+    height: 150px;
+    position: fixed;
+    margin-top: 0%;
+    right: 1%;
+    left: 165px;
+    border: 2px solid black;
+}
+
+
+
+.ladiz{
+    width: 150px;
+    height: 400px;
+    position: fixed;
+    left: auto;
+    margin-top: 4px;
+    border: 2px solid black;
+}
