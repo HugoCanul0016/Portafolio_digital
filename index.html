@@ -6,12 +6,25 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="css/style.css" rel="stylesheet">
         <link rel="stylesheet" href="css/estilos.css">
+        <script src="./js/reloj.js"></script>
     </head>
-    <body>
-        
+    <body onload="mueveReloj()">
+        <div class="flexbox-container">
     <div class="top">
         
-        <h1 align="center">Hugo Canul</h1>
+        <ul class="menu">
+            <li><a href="#">¿Quien soy?</a></li>
+            <li><a href="habilidades.html">Habilidades</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="acercade.html">A cerca de</a></li>
+            <li><a href="#">Inicio</a></li>
+            <li>
+                <form name="form_reloj">
+                    <h2><input type="text" name="reloj" size="10" class="newformat"></h2>
+                </form>
+            </li>
+    
+        </ul>
 
 
     </div>
@@ -57,23 +70,19 @@
             </tr>
         </table>
     </div>
-        
         <h2 align="center">¿Quien soy?</h2>
         <h4 align="center">Alumno de sistemas computacionales, actualmente estoy en 5to semestre.</h4>
 
-        
-        <h2 align="center">Mis habilidades</h2>
-            <p align="center">habilidad 1</p>
-              <p align="center">habilidad 2</p>  
-                <p align="center">habilidad 3</p> 
-
-                <br>
-                <h2 align="center">Contacto</h2>
-            <p align="center">Facebook</p>
-              <p align="center">Twitter</p>  
-                <p align="center">Instagram</p> 
+       
            
         
-    
+            </div>
     </body>
 </html>
+<style>
+    .newformat
+    {
+        font-size: 15;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+</style>
